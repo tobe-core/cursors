@@ -61,3 +61,21 @@ main {
     display: flex;
     justify-content: space-evenly;
 }
+
+.tarjeta {
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    padding: 20px;
+    width: 20%;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.tarjeta:hover {
+    transform: translateX(-5px) translateY(-5px);
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta h2 {
+    margin: 0;
+}
